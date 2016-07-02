@@ -3,11 +3,16 @@
   text-align: center
   background: #F8F8F8
   z-index 2
-  border-radius 6px 6px 0 0
+  border-radius 0 0 6px 6px
+  position fixed
+  width 78%
   &__item
     display inline-block
     padding 1rem
     font-weight 300
+    @media (max-width 768)
+      visibility hidden
+      font-size .6rem
   &__link
     text-decoration none
     color #6C6969

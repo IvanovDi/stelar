@@ -1,8 +1,10 @@
 .service
   background #fff
   padding-top 5rem
+  text-align center
+  padding 8rem 0
+  border-bottom 1px solid grey
   &Item
-    text-align center
     &__caption
       font-size 1.8rem
       font-weight 300
@@ -13,16 +15,21 @@
       color #808080
       line-height 2.3rem
     &__icon
-      doubleBorder(1px, black, 1rem)
+      doubleBorder(1px, #7d7d7d, 1rem)
       display inline-block
       font-size 6.2rem
-      height 10rem
+      height 13rem
       width @height
       line-height @height
       border-radius 100%
+      margin-bottom 3rem
       &_code
         color #efa8b0
       &_files
         color #a89cc8
       &_diamond
         color #8cc9f0
+
+
+.indents
+  margin 5rem 0 3rem
