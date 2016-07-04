@@ -8,12 +8,13 @@
     list-style none
     font-weight 100
     &__icon
+      padding-top 1.5rem
       font-size 3rem
       @media (max-width 1590px) and (min-width 361px)
-        font-size 1rem
+        font-size 2rem
     &__digit
       @media (max-width 1590px) and (min-width 361px)
-        font-size 1rem
+        font-size 2rem
         margin .5rem auto
       font-size 3rem
       margin 1.5rem auto
@@ -29,10 +30,14 @@
       line-height 1.7rem
       @media (max-width 1590px) and (min-width 361px)
         padding .5rem 1.5rem
+      @media (max-width 480px)
+        display block
       &_fork
         border-top-left-radius 5px
         border-bottom-left-radius 5px
         background #EFA8B0
+        @media (max-width 480px)
+          border-radius 0
       &_folder
         background #C79CC8
       &_signal
